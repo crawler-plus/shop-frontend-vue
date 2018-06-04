@@ -1,0 +1,65 @@
+.error-content,.suc-content{
+  position:absolute;
+  left:25%;
+  top:25%;
+}
+.error-content .error-message,.suc-content .suc-message{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.error-btn{
+  position: absolute;
+  bottom:20%;
+  left: 35%;
+}
+.suc-btn{
+  width: 70%;
+  margin: 0 auto;
+  position:absolute;
+  bottom:50px;
+  left:15%;
+}
+.suc-btn li{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 45px;
+  width: 160px;
+  text-align: center;
+}
+.suc-btn .goods-btn{
+  cursor: pointer;
+  float:left;
+
+}
+.suc-btn .cart_btn{
+  float:right;
+
+}
+.error-btn .close-btn, .suc-btn li{
+  border: 1px solid #d1434a;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #d1434a;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+@media only screen and (max-width: 479px) {
+  .suc-btn{
+    position:absolute;
+    bottom:50px;
+    left:20%;
+    width: 160px;
+  }
+  .suc-btn li{
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .suc-btn .goods-btn{
+    padding: 10px 40px;
+  }
+  .suc-content{
+    left:20%
+  }
+}

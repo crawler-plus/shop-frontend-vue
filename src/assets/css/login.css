@@ -1,0 +1,37 @@
+.login-top{
+  margin: 20px 20px ;
+}
+.login-top .login-title{
+  float: left;
+  font-size: 18px;
+}
+.login-top .login-close{
+  float: right;
+}
+.login-content{
+  position: absolute;
+  top: 50px;
+  margin: 10px 20px;
+  width: 100%;
+}
+.login-content .error-wrap{
+  color:red;
+  font-size: 12px;
+  padding-bottom:5px;
+}
+.login-content .login_form_input{
+  margin-bottom:10px;
+  width: 95%;
+}
+.login-wrap{
+  margin-top: 10px;
+  width: 95%;
+}
+.login-wrap .btn-login{
+  display: inline-block;
+  background: #2bc4e2;
+  width : 95%;
+  text-align: center;
+  padding:15px 0;
+  color: white;
+}
